@@ -1,38 +1,54 @@
-set number
-
-set ignorecase
-set hlsearch
-set incsearch
-
-set tabstop=4
-set shiftwidth=4
-set expandtab
-set autoindent
-
-set undofile
-set undodir=~/.vim/undo
-set noswapfile
-
+" Appearance settings
 syntax on
-set showmatch
+set termguicolors
+set background=dark
+colorscheme slate
+set lazyredraw
+
+" Scroll settings
+set scrolloff=3
+set sidescrolloff=5
+
+" Completion settings
 set wildmenu
 set wildmode=longest:full,full
 set completeopt=menuone,noinsert,noselect
+
+" Line/character settings
 set ruler
-set termguicolors
-
-set splitright
-set equalalways
-
-set scrolloff=5
-set sidescrolloff=8
+set number
 set linebreak
+set backspace=indent,eol,start
 
+" Search settings
+set ignorecase
+set hlsearch
+set incsearch
+set showmatch
+
+" Indent settings
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+set smartindent
+
+" History/buffer settings
+set history=5000
+set undofile
+set undodir=~/.vim/undo
+set noswapfile
 set clipboard=unnamedplus
-
 set hidden
-set lazyredraw
 
+" File settings
 set encoding=utf-8
 set fileencoding=utf-8
 set autoread
+
+" Window settings
+set splitright
+set equalalways
+
+" Performance
+updatetime=200
