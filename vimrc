@@ -9,7 +9,7 @@ set lazyredraw
 set scrolloff=3
 set sidescrolloff=5
 
-" Completion settings
+" Auto-completion settings
 set wildmenu
 set wildmode=longest:full,full
 set completeopt=menuone,noinsert,noselect
@@ -50,5 +50,5 @@ set autoread
 set splitright
 set equalalways
 
-" Performance
+" Performance settings
 updatetime=200
