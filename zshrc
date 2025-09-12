@@ -24,6 +24,7 @@ plugins=(git)
 
 # Editor settings
 export EDITOR='vim'
+export LESS='-R -i -M -N -#4'
 
 # Compilation flags
 export ARCHFLAGS="-arch $(uname -m)"
