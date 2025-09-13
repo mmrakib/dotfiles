@@ -51,4 +51,4 @@ set splitright
 set equalalways
 
 " Performance settings
-updatetime=200
+set updatetime=200
